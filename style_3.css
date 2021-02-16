@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: gray;
+  font-family: 'Dancing Script', cursive;
+}
+.container{
+  background: url(images/004.jpg) no-repeat;
+  background-size: cover;
+  filter: saturate(100%);
+  background: #ffffff;
+  height: 95vh;
+  width: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+nav{ flex: 1;
+  text-align: right;
+  }
+nav ul{display: inline-block;
+  list-style-type: none;
+}
+nav ul li{display: inline-block;
+  margin-right: 20px;
+}
+.img{
+  height: 100%;
+  width: 30%;
+  background: url("images/004.jpeg")no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.text{
+  width: 60%;
+  padding: 10px 10px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
